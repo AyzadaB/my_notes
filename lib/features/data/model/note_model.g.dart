@@ -18,7 +18,7 @@ class NoteModelAdapter extends TypeAdapter<NoteModel> {
     };
     return NoteModel(
       title: fields[0] as String,
-      description: fields[1] as int,
+      description: fields[1] as String,
     );
   }
 
